@@ -1,0 +1,4 @@
+dataset_name: 'nuscenes'
+detection_path: 'detections/tracking_val_pgd3d.pkl'
+info_path: 'data/nuscenes/anns/tracking_val_mini.json'
+output_path: 'output/Nusc'

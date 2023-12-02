@@ -1,0 +1,4 @@
+dataset_name: 'kitti'
+detection_path: 'detections/tracking_subval_monodle.json'
+info_path: 'data/KITTI/anns/tracking_subval.json'
+output_path: 'output/KITTI'
