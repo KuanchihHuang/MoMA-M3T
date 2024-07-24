@@ -108,7 +108,7 @@ class trackingEvaluation(object):
              missed         - number of missed targets (FN)
     """
 
-    def __init__(self, t_sha, gt_path="./third_party/AB3DMOT_newsplit/scripts/KITTI", max_truncation = 0, min_height = 25, max_occlusion = 2, \
+    def __init__(self, t_sha, gt_path="./ab3dmot_kitti", max_truncation = 0, min_height = 25, max_occlusion = 2, \
         mail=None, cls="car", eval_3diou=True, eval_2diou=False, num_hypo=1, thres=None):
         # get number of sequences and
         # get number of frames per sequence from test mapping
